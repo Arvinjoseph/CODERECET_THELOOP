@@ -7,6 +7,17 @@ from typing import List, Dict
 from pathlib import Path
 import streamlit as st
 
+# In your embedding.py file
+import chromadb
+from chromadb.config import Settings
+
+# Initialize ChromaDB with SQLite backend
+client = chromadb.Client(Settings(
+    chroma_db_impl="duckdb+parquet",
+    persist_directory="./chroma_db",
+    anonymized_telemetry=False
+))
+
 class EmbeddingService:
     def __init__(self, db_path: str = "data/chroma_db", model_name: str = 'all-MiniLM-L6-v2'):
         """Initialize the embedding service"""
