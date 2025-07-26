@@ -7,10 +7,7 @@ from typing import List, Dict
 from pathlib import Path
 import streamlit as st
 
-client = chromadb.PersistentClient(
-    path="./chroma_db",
-    settings=chromadb.Settings(anonymized_telemetry=False)
-)
+
 
 class EmbeddingService:
     def __init__(self, db_path: str = "data/chroma_db", model_name: str = 'all-MiniLM-L6-v2'):
