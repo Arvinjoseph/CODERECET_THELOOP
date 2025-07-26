@@ -7,3 +7,4 @@ streamlit-folium
 plotly
 pandas
 chromadb
+pysqlite3-binary
