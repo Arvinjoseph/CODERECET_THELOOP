@@ -5,8 +5,8 @@ web3
 folium
 streamlit-folium
 plotly
-pandas<2.0.0
-chromadb==0.4.18
+pandas
+chromadb
 pysqlite3-binary
-numpy==1.24.4
+numpy
 sqlite3
