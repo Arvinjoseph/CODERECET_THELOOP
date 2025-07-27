@@ -127,16 +127,11 @@ In the Innovation Wing, the user's idea is sent to the AI Engine for analysis (s
 
 The analyzed idea is then displayed on the Officials' Dashboard, where community members can vote and officials can review insights and award Loop Tokens by interacting with the smart contracts.
 
-## For Hardware:
 
-### Schematic & Circuit
-Circuit(Add your circuit diagram here) Add caption explaining connections
-Schematic(Add your schematic diagram here) Add caption explaining the schematic
+[View Our Workflow Diagram](https://drive.google.com/file/d/1122-9lGUxz3NzqaEFgbRkBA4BO954bfF/view?usp=drive_link)
 
-### Build Photos
-Components(Add photo of your components here) List out all components shown
-Build(Add photos of build process here) Explain the build steps
-Final(Add photo of final product here) Explain the final build
+
+
 
 ### Project Demo
 
@@ -147,6 +142,8 @@ Final(Add photo of final product here) Explain the final build
 [Add any extra demo materials/links]
 
 ## Team Contributions
-[Name 1]: [Specific contributions]
-[Name 2]: [Specific contributions]
-[Name 3]: [Specific contributions]
+[Adarsh Abraham Johnson]: [ Implimented Web3 and Agentic AI parts ]
+[Amith Paul Siju]: [Implimented Devop, ML and Deployment parts]
+[Arvin Joseph]: [Frontend Implementations and design parts]
+[Arjun T Aghilesh]: [Frontend Implementations and design parts]
+
